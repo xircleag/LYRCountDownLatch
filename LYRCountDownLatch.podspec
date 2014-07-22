@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "6.0"
   s.osx.deployment_target = "10.8"
 
-  s.source       = { :git => "http://EXAMPLE/LYRCountDownLatch.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/layerhq/LYRCountDownLatch.git", :tag => "v#{s.version}" }
   s.source_files  = "Code"
   s.public_header_files = "Code/*.h"
   s.requires_arc = true
